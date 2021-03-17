@@ -12,8 +12,6 @@ class ListController extends Controller
 
         $cars = Car::all();
 
-        dump($cars);
-        
         return view('list', ['cars' => $cars]);
     }
 }
