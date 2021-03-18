@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{id?}', 'ListController@index');
+
+Route::get('/{id?}/{name?}', 'ListController@index');

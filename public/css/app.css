@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: lightblue;
+}
+
+.title {
+  margin: 25px 0;
+  text-align: center;
+  color: darkblue;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.car-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  line-height: 1.5em;
+}
+
+#id {
+  color: darkblue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.car-details {
+  color: blue;
+}
